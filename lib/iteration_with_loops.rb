@@ -7,7 +7,7 @@ def join_nested_strings(src)
   while y < src.count do
     x = 0 
     while x < src[y].count do
-      if src[y][x].class = String
+      if src[y][x].class = "String"
         array_out.push(src[y][x])
       end
       x += 1 
