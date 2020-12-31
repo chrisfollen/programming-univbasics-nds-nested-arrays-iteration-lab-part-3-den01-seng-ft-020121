@@ -10,5 +10,11 @@ def join_nested_strings(src)
       if src[y][x].class = String
         array_out.push(src[y][x])
       end
+      x += 1 
+    end
+    y += 1 
+  end
+  array_out.join(' ')
+  
       
 end
